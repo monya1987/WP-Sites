@@ -1,0 +1,42 @@
+.reviews {
+  border-top: 2px solid #ddd;
+  padding: 20px;
+  margin-top: 130px;
+  background: #fff;
+  .h1 {
+    margin-bottom: 40px;
+  }
+  .reviewsWrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .box {
+    text-align: center;
+    img {
+      display: inline-block;
+      width: 100%;
+      max-width: 200px;
+      border-radius: 20px;
+      margin-bottom: 15px;
+    }
+    .descr {
+      font-size: 12px;
+      color: #333;
+      font-style: italic;
+    }
+    .name {
+      display: block;
+      font-weight: 700;
+      color: #000;
+      font-size: 16px;
+      font-style: normal;
+    }
+    .house {
+      font-size: 14px;
+      display: block;
+      margin-bottom: 7px;
+      color: #666;
+      font-style: normal;
+    }
+  }
+}

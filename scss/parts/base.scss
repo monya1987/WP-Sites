@@ -1,0 +1,19 @@
+@import '../bootstrap/variables';
+@import '../bootstrap/mixins';
+
+.h1 {
+  font-size: 33px;
+  line-height: 43px;
+  text-shadow: 1px 1px #fff;
+  text-align: center;
+  color: $secondary;
+  @include media-breakpoint-up(md) {
+    font-size: 23px;
+    line-height: 33px;
+  }
+}
+
+.main {
+  background: url("/wp-content/themes/new-apart/img/bg-3.jpg") no-repeat;
+  background-size: contain;
+}

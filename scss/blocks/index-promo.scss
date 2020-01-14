@@ -1,0 +1,30 @@
+
+.index-promo {
+  .title {
+    font-size: 33px;
+    line-height: 43px;
+    text-shadow: 1px 1px #fff;
+    text-align: center;
+    margin-top: 150px;
+    span {
+
+    }
+  }
+  .boxWrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .box {
+    width: 250px;
+    margin: 25px;
+    background: #fff;
+    border: 2px solid #ccc;
+    padding: 20px;
+    .first {}
+    .second {}
+    .third {}
+    .descr {
+
+    }
+  }
+}

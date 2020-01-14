@@ -1,0 +1,117 @@
+@import '../bootstrap/variables';
+@import '../bootstrap/mixins';
+
+
+.header {
+  background: $primary;
+  padding: 0 20px;
+  .logo {
+    position: relative;
+    padding: 10px 50px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    margin: 10px 0;
+    white-space: nowrap;
+    strong {
+      font-size: 50px;
+      line-height: 1;
+      letter-spacing: 7px;
+    }
+    span {
+      font-size: 13px;
+      position: absolute;
+      bottom: -8px;
+      right: 0;
+      background: $primary;
+      padding-left: 5px;
+    }
+    @media (max-width: 992px) {
+      text-align: center;
+      width: 100%;
+    }
+  }
+  .icons-block {
+    text-align: right;
+  }
+  .phone {
+    font-size: 17px;
+    text-align: center;
+    margin-right: 15px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px 15px;
+    border-radius: 5px;
+    background: $secondary;
+    float: right;
+    color: #fff;
+    @media (max-width: 768px) {
+      margin: 15px 0;
+    }
+    @media (max-width: 992px) {
+      margin: 15px 0;
+    }
+    //@media (max-width: 992px) {
+    //  font-size: 17px;
+    //  text-align: center;
+    //}
+    //@media(min-width:1200px) {
+    //
+    //}
+    .text {
+      white-space: nowrap;
+    }
+  }
+  .icon {
+    margin-right: 7px;
+    &:hover {
+      text-decoration: none;
+      svg {
+        background: #ddd;
+      }
+    }
+    svg {
+      background: #fff;
+    }
+    @media (max-width: 992px) {
+      margin-bottom: 20px;
+      display: inline-block;
+    }
+  }
+  .telegram {
+    svg {
+      fill: #31A8E0;
+    }
+  }
+  .viber {
+    svg {
+      fill: #7360F2;
+    }
+  }
+  .facebook {
+    margin-right: 0;
+    svg {
+      fill: #3B579D;
+    }
+  }
+}
+
+
+.page-descr {
+  margin: 40px 0;
+  h1 {
+    font-size: 33px;
+    line-height: 43px;
+    text-shadow: 1px 1px #fff;
+    color: #144372;
+    border-bottom: 2px solid #eee;
+  }
+  p {
+    margin-bottom: 11px;
+  }
+  div {
+    margin: 20px 0;
+  }
+}

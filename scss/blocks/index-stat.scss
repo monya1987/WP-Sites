@@ -1,0 +1,32 @@
+
+.index-stat {
+  .title {
+    font-size: 33px;
+    line-height: 43px;
+    text-shadow: 1px 1px #fff;
+    text-align: center;
+    margin-top: 150px;
+    span {
+
+    }
+  }
+  .box {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: 25px;
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 200px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .first {}
+    .second {}
+    .third {}
+    .descr {
+
+    }
+  }
+}
